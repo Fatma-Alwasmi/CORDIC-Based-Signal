@@ -7,7 +7,7 @@ Here's a complete README for your final project:
 
 ## 📚 Introduction
 
-This project focuses on the design and implementation of a signal processor capable of handling complex numbers, specifically within the range of -50 to +50. The processor consists of two main components: a 25-tap Complex FIR Filter for signal cleaning and a CORDIC Rotator for calculating the magnitude and angle of the signal. We utilized Vitis HLS to develop our hardware, optimizing the design with HLS pragmas to enhance performance. This README provides an overview of our design approach, challenges encountered, solutions implemented, and the results achieved.
+This project focuses on the design and implementation of a signal processor capable of handling complex numbers, specifically within the range of -50 to +50. The processor consists of two main components: a 25-tap Complex FIR Filter for signal cleaning and a CORDIC Rotator for calculating the magnitude and angle of the signal. Used Vitis HLS to develop the hardware, optimizing the design with HLS pragmas to enhance performance. This README provides an overview of our design approach, challenges encountered, solutions implemented, and the results achieved.
 
 ## 🚀 Project Approach
 
