@@ -25,7 +25,7 @@ The primary objective was to create a signal processor that efficiently processe
    - **Constraints:** Only allowed operations were additions, subtractions, and bit shifts, following the provided sample code.
 
 ### 🔧 Pragmas and Optimizations
-We applied various HLS pragmas to optimize the design, focusing on reducing resource usage and minimizing latency without compromising frequency.
+applied various HLS pragmas to optimize the design, focusing on reducing resource usage and minimizing latency without compromising frequency.
 
 - **Array Partitioning:** Enabled parallel access to array elements in the `complex_fir` function.
 - **Loop Unrolling:** Fully unrolled loops in the `complex_fir` function for kernel operations.
@@ -60,7 +60,7 @@ The design is organized into several key functions:
 - Enabled concurrent function execution, ensuring continuous data processing without stalls.
 
 ### 🧮 Arbitrary Precision
-We utilized `ap_int` and `ap_fixed` data types to optimize resource usage:
+utilized `ap_int` and `ap_fixed` data types to optimize resource usage:
 
 - **Fixed-Point Integers (`ap_int<17>`):** Chosen for precision in representing signal values and preventing overflow during accumulation.
 - **Fixed-Point Real Numbers (`ap_fixed<20,12>`):** Used for accurate CORDIC phase calculations, balancing integer and fractional precision.
