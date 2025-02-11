@@ -1,6 +1,3 @@
-Here's a complete README for your final project:
-
----
 
 # 💻 CMPEN 417 – Field Programmable Devices: Final Project - Spring 2024
 
